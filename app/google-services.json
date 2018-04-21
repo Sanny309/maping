@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "376140023740-dei55easq1iguqogbf6t9apv0krm0gmr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sanny.loader",
+            "certificate_hash": "3ecdad1aa433fb3bb65a3bbe972c2c2a1949eaad"
+          }
+        },
+        {
           "client_id": "376140023740-1nv60ode41ej75vu1dapm5oj1se20evd.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {

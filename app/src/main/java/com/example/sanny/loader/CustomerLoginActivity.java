@@ -33,7 +33,7 @@ public class CustomerLoginActivity extends AppCompatActivity {
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
                 FirebaseUser user= FirebaseAuth.getInstance().getCurrentUser();
                 if(user!=null){
-                    Intent intent=new Intent(CustomerLoginActivity.this,CustomerMapActivity.class);
+                    Intent intent=new Intent(CustomerLoginActivity.this, CutomerMenu_Activity.class);
                     startActivity(intent);
                     finish();
                     return;

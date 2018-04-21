@@ -63,13 +63,13 @@ public class CustomerMapActivity extends FragmentActivity implements OnMapReadyC
         mLogout=(Button)findViewById(R.id.logout);
         mrequest=(Button)findViewById(R.id.request);
         mLogout.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                FirebaseAuth.getInstance().signOut();
-                Intent intent=new Intent(CustomerMapActivity.this,MainActivity.class);
-                startActivity(intent);
-                finish();
-                return;
+                    @Override
+                    public void onClick(View v) {
+                        FirebaseAuth.getInstance().signOut();
+                        Intent intent=new Intent(CustomerMapActivity.this,MainActivity.class);
+                        startActivity(intent);
+                        finish();
+                        return;
             }
         });
         mrequest.setOnClickListener(new View.OnClickListener() {
